@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daraz help and support</title>
+</head>
+<style>
+  * {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #f85606;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    } 
+header{
+    background-color: #f85606;
+    width: 100%;
+    height: 1028%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    padding-left: 150px;
+    font-family:  sans-serif;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    padding-left: 100px;
+    font-family:  sans-serif;
+    font-size: 15px;
+    list-style: none;
+    padding-left: 30px;
+}
+.hemloo{
+    display: flex;
+    margin-top: 10px;
+}
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f85606;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #050505;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 40px;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color: #f85606;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover{
+    color:#050505
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+.img{
+    padding-left: 5px;
+    padding-top:0px ;
+    padding-bottom: 10px;
+    height: 68px;
+    margin-bottom: 02px;
+}
+.hello{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    
+}
+#searchbox{
+    width: 756px;
+    height: 38px;
+    border-radius: 10px;
+    border: #fff;
+    padding-left: 10px;
+    margin-top: 35px ;
+    margin-bottom: 40px;
+}
+.log-in{
+    padding-top: 35px;
+    font-size: 23px;
+    color: #fff;
+    font-family: 'Frankpn Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+    
+</style>
+<body>
+  <header>
+      <ul>
+          <a href="daraz seller.html">Become a seller</a>
+          <a href="">Daraz affilate porgarm</a>
+          <a href="">Daraz logistic porgarm</a>
+      </ul>
+      <span class="hemloo">    
+          <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="#">Groceries & pets</a>
+          <a href="#">Health & beauty</a>
+          <a href="#">Men's Fashion</a>
+          <a href="#">women's Fashion</a>
+          <a href="#">Mother & Baby</a>
+          <a href="#">Home & Lifestyle</a>
+          <a href="#">Electronics Devices</a>
+          <a href="#">Sports & Outdoor</a>
+          <a href="#">Watches & jewellery</a>
+          <a href="#">Automotive & Motorbike</a>
+        </div>
+        
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">☰ </button>  
+        </div>
+  
+          <span class="img"><img src="images/daraz.png" alt=""></span>
+          <label for=" " class="hello"></label>
+          <input id="searchbox" type="search" placeholder="Search in Daraz">
+          <a href="login.html"><span class="log-in">Log-in </span></a>
+          <span class="log-in" style="padding-left: 20px;">|</span>
+          <a href="signup.html"><span class="log-in">Sign Up</span></a>
+      </span>
+  </header>
+  
+    <div class="header">
+        <h1>Daraz Help & Support</h1>
+    </div>
+      <section>
+        <h2>Contact Information</h2>
+        <p>If you have any questions or need assistance, feel free to contact us:</p>
+        <ul>
+          <li>Email: support@daraz.com</li>
+          <li>Phone: 1-800-900</li>
+          <li>Live Chat: Available on DARAZ</li>
+        </ul>
+        <h2>Frequently Asked Questions (FAQs)</h2>
+        <p>Check out our frequently asked questions for quick answers:</p>
+        <ul>
+          <li>How do I track my order?</a></li>
+          <li>What is your return policy?</a></li>
+          <li>How can I pay for my order?</a></li>
+          <li>Do you offer international shipping?</a></li>
+          <li>How can I contact customer service?</a></li>
+        </ul>
+        <h2>Customer Service Hours</h2>
+        <p>Our customer service team is available to assist you during the following hours:</p>
+        <p>Monday-Friday: 9:00 AM - 9:00 PM (UTC+5)</p>
+        <p>Saturday-Sunday: 10:00 AM - 6:00 PM (UTC+5)</p>
+      </section>
+</body>
+</html>
